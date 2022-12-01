@@ -1,0 +1,18 @@
+.loading{
+  background:transparent;
+  border:6px solid #333;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  border-left-color:transparent;
+  animation: loading .5s linear infinite forwards;
+  display:block;
+  margin: 2rem auto;
+}
+
+
+@keyframes loading {
+  to{
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,30 @@
+.list{
+ width:300px
+}
+
+
+.item {
+  display:grid;
+  grid-template-columns: 50px 1fr auto;
+  grid-template-rows: 50px;
+  align-items: center;
+  gap:1rem;
+  margin-bottom:1rem;
+  background:#F9F9F9;
+  padding-right: 1rem;
+  border-radius:3px;
+}
+
+.img{
+  border-radius:3px;
+}
+
+.title{
+  font-size: 1rem;
+}
+
+.acessos{
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size:.875rem;
+  color:#999;
+}
